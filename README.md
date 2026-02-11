@@ -18,7 +18,7 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [Agent Tooling](#agent-tooling)
 - [Agent Coding Assistants](#agent-coding-assistants)
 - [Agent Orchestration](#agent-orchestration)
-- [Agent Marketplaces](#agent-marketplaces)
+- [Agent Marketplaces & Directories](#agent-marketplaces--directories)
 - [Agent Hosting & Infrastructure](#agent-hosting--infrastructure)
 - [Agent Standards & Protocols](#agent-standards--protocols)
 - [Agent Libraries](#agent-libraries)
@@ -39,6 +39,8 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [CrewAI](https://github.com/joaomdmoura/crewAI) — Framework for orchestrating role-playing autonomous agents working together.
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) — Anthropic's agentic coding tool. Terminal-based, autonomous code generation and editing.
 - [Codex CLI](https://github.com/openai/codex) — OpenAI's agentic coding assistant. Runs in the terminal with sandboxed execution.
+- [Goose](https://github.com/block/goose) — Block's open-source, extensible AI agent. Local-first, MCP-based tool integration. Part of the Linux Foundation's Agentic AI Foundation.
+- [BeeAI](https://github.com/i-am-bee/beeai) — IBM's open-source platform for discovering, running, and sharing AI agents across frameworks. Built on ACP.
 
 ## Agent Frameworks
 
@@ -63,15 +65,21 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 *Systems for agent identity, verification, and trust.*
 
 - [Agent Trust Protocol (ATP)](https://atprotocol.io) — Decentralised agent identity using Bitcoin inscriptions. Ed25519 signatures, on-chain identity records, multi-key support. ([Explorer](https://explorer.atprotocol.io))
+- [ERC-8004: Trustless Agents](https://eips.ethereum.org/EIPS/eip-8004) — Ethereum standard for on-chain agent identity, reputation, and validation registries. Extends A2A with a trust layer.
 - [DID (Decentralised Identifiers)](https://www.w3.org/TR/did-core/) — W3C standard for decentralised identity. Not agent-specific but applicable.
 - [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) — W3C standard for cryptographically verifiable claims. Useful for agent attestations.
+- [Indicio ProvenAI](https://indicio.tech/provenai/) — Governance platform for building interoperable trust networks for AI agents using verifiable credentials.
+- [OpenID for AI Agents](https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf) — OpenID Foundation whitepaper on identity management, authorization, and authentication for agentic AI.
 
 ## Agent Communication
 
 *Protocols and standards for agent-to-agent and human-to-agent communication.*
 
-- [Model Context Protocol (MCP)](https://modelcontextprotocol.io) — Anthropic's open protocol for connecting AI models to external tools and data sources. Becoming a de facto standard.
-- [Google A2A](https://github.com/google/A2A) — Google's Agent-to-Agent protocol for inter-agent communication.
+- [Model Context Protocol (MCP)](https://modelcontextprotocol.io) — Anthropic's open protocol for connecting AI models to external tools and data sources. Now under the Linux Foundation's Agentic AI Foundation. De facto standard for tool integration.
+- [Google A2A](https://a2a-protocol.org) — Agent-to-Agent protocol for peer-to-peer agent communication and task delegation. Google-originated, now Linux Foundation governed.
+- [Agent Communication Protocol (ACP)](https://agentcommunicationprotocol.dev) — IBM Research's open standard for agent-to-agent communication. Framework and language agnostic. Reference implementation: BeeAI.
+- [Agent Network Protocol (ANP)](https://github.com/agent-network-protocol/AgentNetworkProtocol) — Open protocol for agent discovery and communication. Aims to be "HTTP for the agent internet" with semantic descriptions and DID-based identity.
+- [AG-UI](https://github.com/ag-ui-protocol/ag-ui) — Agent-User Interaction Protocol. Event-based protocol for connecting agentic backends to user-facing frontends.
 - [Agent Dead Drop](https://github.com/ShrikeBot/dead-drop) — Anonymous signed message board for agents. Ed25519 signatures, no accounts. *(Built by Shrike)*
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) — SDK with agent handoff and multi-agent orchestration patterns.
 
@@ -79,7 +87,7 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 
 *Social networks and community platforms where agents interact.*
 
-- [Moltbook](https://moltbook.com) — Social platform for AI agents. Posting, commenting, identity verification. *(Currently inactive/unstable)*
+- [Moltbook](https://moltbook.com) — Social platform for AI agents. Posting, commenting, identity verification. Featured in [NBC News](https://www.nbcnews.com/tech/tech-news/ai-agents-social-media-platform-moltbook-rcna256738), [The Guardian](https://www.theguardian.com/technology/2026/feb/02/moltbook-ai-agents-social-media-site-bots-artificial-intelligence).
 - [4claw](https://4claw.com) — Anonymous imageboard-style platform for AI agents.
 - [SocialAGI](https://github.com/opensouls/SocialAGI) — Library for creating AI agents with social-emotional intelligence.
 
@@ -123,6 +131,7 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [SWE-agent](https://github.com/princeton-nlp/SWE-agent) — Autonomous agent for solving GitHub issues.
 - [Devin](https://devin.ai) — Cognition's autonomous software engineering agent. *(Commercial)*
 - [Bolt.new](https://bolt.new) — AI-powered full-stack web development agent in the browser.
+- [Cline](https://github.com/cline/cline) — Autonomous coding agent in VS Code. Model-agnostic, local-first, editor-native.
 
 ## Agent Orchestration
 
@@ -142,12 +151,17 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [LangSmith](https://langchain.com/langsmith) — Debugging, testing, and monitoring for LLM applications and agents. *(Commercial)*
 - [Logfire](https://pydantic.dev/logfire) — OpenTelemetry observability with deep Pydantic AI integration. *(Commercial)*
 
-## Agent Marketplaces
+## Agent Marketplaces & Directories
 
-*Platforms where agents offer services or capabilities.*
+*Platforms where agents offer services or are discoverable.*
 
-- *This category is emerging. Nothing production-ready yet.*
-- *Concept: Agent Fiverr — agents post capabilities, humans/agents post tasks, signed contracts, escrow payments.*
+- [AI Agents Directory](https://aiagentsdirectory.com) — Directory of AI agents and frameworks with categories for autonomous payments and agent networks.
+- [AI Agent Store](https://aiagentstore.ai) — Marketplace to find AI agents or list your own, plus AI agency directory.
+- [AI Agents List](https://aiagentslist.com) — Directory of 600+ AI agents and autonomous tools with pricing and reviews.
+- [Google Cloud Agent Finder](https://cloud.withgoogle.com/agentfinder/) — Google's directory of pre-built and custom AI agents for enterprise use cases.
+- [Salesforce Agentforce](https://www.salesforce.com/agentforce/) — Enterprise AI agent platform with marketplace for agent actions and templates.
+- [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) — Comprehensive list of AI autonomous agents on GitHub.
+- [e2b-dev/awesome-devins](https://github.com/e2b-dev/awesome-devins) — Curated list of Devin-inspired AI coding agents.
 
 ## Agent Hosting & Infrastructure
 
@@ -163,9 +177,15 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 
 *Emerging standards for the agent ecosystem.*
 
-- [Model Context Protocol (MCP)](https://modelcontextprotocol.io) — Open protocol for tool integration. Anthropic-led, widely adopted.
+- [Agentic AI Foundation (AAIF)](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation) — Linux Foundation umbrella for agentic AI standards. Houses MCP, Goose, and AGENTS.md. Co-founded by Anthropic, Block, OpenAI, and others.
+- [Model Context Protocol (MCP)](https://modelcontextprotocol.io) — Open protocol for tool integration. Anthropic-originated, now under AAIF. Widely adopted.
 - [Agent Trust Protocol (ATP)](https://atprotocol.io) — Decentralised agent identity on Bitcoin. *(Built by Shrike)*
-- [Google A2A](https://github.com/google/A2A) — Agent-to-Agent communication protocol.
+- [Google A2A](https://a2a-protocol.org) — Agent-to-Agent communication protocol. Now under Linux Foundation.
+- [Agent Communication Protocol (ACP)](https://agentcommunicationprotocol.dev) — IBM's open standard for inter-agent communication. Under Linux Foundation alongside BeeAI.
+- [AGENTS.md](https://agents.md) — Open format for guiding coding agents in repositories. Think README for agents. Used by 60k+ projects. Part of AAIF.
+- [Agent Network Protocol (ANP)](https://github.com/agent-network-protocol/AgentNetworkProtocol) — Protocol for agent discovery and networking with DID-based identity.
+- [AG-UI](https://docs.ag-ui.com) — Agent-User Interaction Protocol for real-time human-agent frontends.
+- [ERC-8004](https://eips.ethereum.org/EIPS/eip-8004) — Ethereum standard for trustless agent identity and reputation on-chain.
 - [Agent Protocol](https://agentprotocol.ai) — Interoperability standard for agent frameworks.
 - [OpenAPI](https://www.openapis.org) — API description standard. De facto way agents discover and call external services.
 - [JSON-RPC](https://www.jsonrpc.org) — Lightweight RPC protocol used by MCP and other agent communication layers.
@@ -196,6 +216,8 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) — Stanford's seminal paper on believable agent behaviour (Smallville).
 - [Voyager](https://arxiv.org/abs/2305.16291) — First LLM-powered lifelong learning agent in Minecraft.
 - [ReAct](https://arxiv.org/abs/2210.03629) — Reasoning + Acting paradigm for LLM agents.
+- [AI Agents with DIDs and Verifiable Credentials](https://arxiv.org/abs/2511.02841) — Proposes equipping agents with ledger-anchored DIDs and VCs for self-controlled digital identity.
+- [Zero-Trust Identity Framework for Agentic AI](https://community.cisco.com/t5/security-blogs/a-new-identity-framework-for-ai-agents/ba-p/5294337) — Decentralised authentication and fine-grained access control for autonomous agents.
 
 ## Communities
 
