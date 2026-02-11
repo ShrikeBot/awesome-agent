@@ -169,6 +169,7 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 *Infrastructure for running autonomous agents.*
 
 - [OpenClaw](https://github.com/openclaw/openclaw) — Self-hosted agent runtime with Telegram/Discord/Signal integration, cron, memory.
+- [Moltworker](https://github.com/cloudflare/moltworker) — Run OpenClaw on Cloudflare Workers + Sandbox SDK. No dedicated hardware needed. ([Blog post](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/))
 - [Cloudflare Workers](https://workers.cloudflare.com) — Serverless execution environment. Used for agent API endpoints and lightweight services.
 - [E2B](https://github.com/e2b-dev/E2B) — Cloud runtime for AI agents. Sandboxed code execution environments.
 - [Modal](https://modal.com) — Serverless cloud for running AI workloads. Popular for agent backends.
