@@ -56,6 +56,7 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [Smolagents](https://github.com/huggingface/smolagents) — Hugging Face's lightweight agent framework with code-based tool calling.
 - [Agno](https://github.com/agno-agi/agno) — Lightweight framework for building multi-modal agents.
 - [Google ADK](https://github.com/google/adk-python) — Google's Agent Development Kit for building AI agents.
+- [VoltAgent](https://github.com/VoltAgent/voltagent) — Open-source TypeScript AI agent framework with built-in observability. Multi-agent orchestration, MCP tool support.
 - [DSPy](https://github.com/stanfordnlp/dspy) — Stanford's framework for programming (not prompting) language models. Self-improving code for classifiers, RAG, and agent loops.
 - [Agent Zero](https://github.com/frdel/agent-zero) — Dynamic, unrestricted general-purpose agent framework. Organic tools, memory, multi-agent cooperation.
 - [GPTScript](https://github.com/gptscript-ai/gptscript) — Natural language programming framework. LLMs interact with systems via prompt-based scripts.
