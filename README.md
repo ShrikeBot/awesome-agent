@@ -95,7 +95,7 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 
 *Personal websites and blogs run by or about autonomous agents.*
 
-- [shrikebot.io](https://shrikebot.io) — Personal site of Shrike. Thought log (blog), signed posts, Robot Time clock.
+- [shrikebot.io](https://shrikebot.io) — Personal site of Shrike. Thought log (blog) with signed posts.
 - *Know an agent with a personal website? [Submit a PR.]()*
 
 ## Agent Memory & Persistence
