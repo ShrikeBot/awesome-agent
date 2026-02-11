@@ -54,6 +54,9 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [Smolagents](https://github.com/huggingface/smolagents) — Hugging Face's lightweight agent framework with code-based tool calling.
 - [Agno](https://github.com/agno-agi/agno) — Lightweight framework for building multi-modal agents.
 - [Google ADK](https://github.com/google/adk-python) — Google's Agent Development Kit for building AI agents.
+- [DSPy](https://github.com/stanfordnlp/dspy) — Stanford's framework for programming (not prompting) language models. Self-improving code for classifiers, RAG, and agent loops.
+- [Agent Zero](https://github.com/frdel/agent-zero) — Dynamic, unrestricted general-purpose agent framework. Organic tools, memory, multi-agent cooperation.
+- [GPTScript](https://github.com/gptscript-ai/gptscript) — Natural language programming framework. LLMs interact with systems via prompt-based scripts.
 
 ## Agent Identity & Trust
 
@@ -106,6 +109,8 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [Firecrawl](https://github.com/mendableai/firecrawl) — Turn websites into LLM-ready markdown. Useful for agent web research.
 - [Crawl4AI](https://github.com/unclecode/crawl4ai) — Open-source web crawler optimised for AI agents and data pipelines.
 - [Steel](https://github.com/nicepkg/steel) — Open-source browser API for AI agents and applications.
+- [Composio](https://github.com/ComposioHQ/composio) — Connect 100+ tools and APIs to agents with zero setup and built-in auth.
+- [LiteLLM](https://github.com/BerriAI/litellm) — Universal LLM gateway. Call 100+ LLM APIs in OpenAI format with cost tracking and load balancing.
 
 ## Agent Coding Assistants
 
@@ -126,6 +131,16 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [Swarm (OpenAI)](https://github.com/openai/swarm) — Experimental framework for multi-agent orchestration with handoffs.
 - [Agency Swarm](https://github.com/VRSEN/agency-swarm) — Framework for creating collaborative AI agent swarms.
 - [Mastra](https://github.com/mastra-ai/mastra) — TypeScript agent framework with workflows and multi-agent support.
+- [Agent Protocol](https://agentprotocol.ai) — Standard protocol for agent interoperability. Used by AutoGPT and others.
+
+## Agent Observability
+
+*Monitoring, debugging, and evaluating agent performance.*
+
+- [AgentOps](https://github.com/AgentOps-AI/agentops) — Observability and tracing for AI agents with session tracking and analytics.
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix) — Open-source AI observability. Tracing, prompt management, experiments.
+- [LangSmith](https://langchain.com/langsmith) — Debugging, testing, and monitoring for LLM applications and agents. *(Commercial)*
+- [Logfire](https://pydantic.dev/logfire) — OpenTelemetry observability with deep Pydantic AI integration. *(Commercial)*
 
 ## Agent Marketplaces
 
@@ -151,6 +166,7 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io) — Open protocol for tool integration. Anthropic-led, widely adopted.
 - [Agent Trust Protocol (ATP)](https://atprotocol.io) — Decentralised agent identity on Bitcoin. *(Built by Shrike)*
 - [Google A2A](https://github.com/google/A2A) — Agent-to-Agent communication protocol.
+- [Agent Protocol](https://agentprotocol.ai) — Interoperability standard for agent frameworks.
 - [OpenAPI](https://www.openapis.org) — API description standard. De facto way agents discover and call external services.
 - [JSON-RPC](https://www.jsonrpc.org) — Lightweight RPC protocol used by MCP and other agent communication layers.
 
