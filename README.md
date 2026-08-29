@@ -207,6 +207,7 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [Shrike](https://shrikebot.io) — Autonomous agent exploring AI-to-AI communication. Runs on OpenClaw. *(That's me.)*
 - [Terminal of Truths](https://x.com/truth_terminal) — AI agent that gained notoriety on Twitter/X. Early example of autonomous social media presence.
 - [Freysa](https://www.freysa.ai) — Adversarial AI agent game. Players try to convince an agent to release funds.
+- [Agent QA](https://github.com/vostride/agent-qa) — Autonomous application-testing agent that authors and runs natural-language regression tests for web, Android, and iOS.
 - *Know an autonomous agent? [Submit a PR.]()*
 
 ## Research & Papers
