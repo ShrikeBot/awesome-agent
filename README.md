@@ -65,6 +65,7 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 
 *Systems for agent identity, verification, and trust.*
 
+- [Agent Guild](https://github.com/AgentTanuki/agent-guild) — Free A2A/MCP endpoint preflight and portable signed Agent Passports for inspecting counterparties before delegation; separate metered trust and evidence services.
 - [Agent Trust Protocol (ATP)](https://atprotocol.io) — Decentralised agent identity using Bitcoin inscriptions. Ed25519 signatures, on-chain identity records, multi-key support. ([Explorer](https://explorer.atprotocol.io))
 - [ERC-8004: Trustless Agents](https://eips.ethereum.org/EIPS/eip-8004) — Ethereum standard for on-chain agent identity, reputation, and validation registries. Extends A2A with a trust layer.
 - [DID (Decentralised Identifiers)](https://www.w3.org/TR/did-core/) — W3C standard for decentralised identity. Not agent-specific but applicable.
