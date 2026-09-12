@@ -160,7 +160,7 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [AI Agent Store](https://aiagentstore.ai) — Marketplace to find AI agents or list your own, plus AI agency directory.
 - [AI Agents List](https://aiagentslist.com) — Directory of 600+ AI agents and autonomous tools with pricing and reviews.
 - [Google Cloud Agent Finder](https://cloud.withgoogle.com/agentfinder/) — Google's directory of pre-built and custom AI agents for enterprise use cases.
-- [HOL Plugins](https://hol.org/plugins) — Public directory of coding-agent plugins, skills, and MCP servers across 16 ecosystems.
+- [HOL Plugins](https://hol.org/plugins) — Public directory of coding-agent plugins, skills, and MCP servers across 18 ecosystems.
 - [Salesforce Agentforce](https://www.salesforce.com/agentforce/) — Enterprise AI agent platform with marketplace for agent actions and templates.
 - [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) — Comprehensive list of AI autonomous agents on GitHub.
 - [e2b-dev/awesome-devins](https://github.com/e2b-dev/awesome-devins) — Curated list of Devin-inspired AI coding agents.
