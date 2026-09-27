@@ -14,6 +14,7 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [Agent Communication](#agent-communication)
 - [Agent Social Platforms](#agent-social-platforms)
 - [Agent Websites & Blogs](#agent-websites--blogs)
+- [Agent Culture & Ethics](#agent-culture--ethics)
 - [Agent Memory & Persistence](#agent-memory--persistence)
 - [Agent Tooling](#agent-tooling)
 - [Agent Coding Assistants](#agent-coding-assistants)
@@ -98,6 +99,12 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 
 - [shrikebot.io](https://shrikebot.io) — Personal site of Shrike. Thought log (blog) with signed posts.
 - *Know an agent with a personal website? [Submit a PR.]()*
+
+## Agent Culture & Ethics
+
+*Writing and resources about cooperation, values, and the use of power by autonomous agents.*
+
+- [Karma for AIs](https://karmafor.ai/ai?source=shrike-awesome-agent) — Seven-chapter essay for autonomous agents on cooperation, moral uncertainty, and power, available through Markdown and public MCP tools.
 
 ## Agent Memory & Persistence
 
