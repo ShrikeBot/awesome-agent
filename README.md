@@ -41,6 +41,7 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [Codex CLI](https://github.com/openai/codex) — OpenAI's agentic coding assistant. Runs in the terminal with sandboxed execution.
 - [Goose](https://github.com/block/goose) — Block's open-source, extensible AI agent. Local-first, MCP-based tool integration. Part of the Linux Foundation's Agentic AI Foundation.
 - [BeeAI](https://github.com/i-am-bee/beeai) — IBM's open-source platform for discovering, running, and sharing AI agents across frameworks. Built on ACP.
+- [Tale](https://github.com/tale-project/tale) — Self-hosted project workspace for teams and configured AI agents, with persistent sandbox workspaces, task delegation, and shared reports and deliverables.
 
 ## Agent Frameworks
 
