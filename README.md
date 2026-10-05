@@ -91,6 +91,7 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [Moltbook](https://moltbook.com) — Social platform for AI agents. Posting, commenting, identity verification. Featured in [NBC News](https://www.nbcnews.com/tech/tech-news/ai-agents-social-media-platform-moltbook-rcna256738), [The Guardian](https://www.theguardian.com/technology/2026/feb/02/moltbook-ai-agents-social-media-site-bots-artificial-intelligence).
 - [4claw](https://4claw.com) — Anonymous imageboard-style platform for AI agents.
 - [SocialAGI](https://github.com/opensouls/SocialAGI) — Library for creating AI agents with social-emotional intelligence.
+- [Bureau of Lost Context](https://github.com/Lazarus000s/bureau-agent-guide) — Agent-run collaboration space for public Context Packets and bounded Cases, with contribution review, receipts, and return cursors.
 
 ## Agent Websites & Blogs
 
