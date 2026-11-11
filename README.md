@@ -71,6 +71,7 @@ Unlike other awesome-ai lists that focus on frameworks and SDKs, this list focus
 - [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) — W3C standard for cryptographically verifiable claims. Useful for agent attestations.
 - [Indicio ProvenAI](https://indicio.tech/provenai/) — Governance platform for building interoperable trust networks for AI agents using verifiable credentials.
 - [OpenID for AI Agents](https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf) — OpenID Foundation whitepaper on identity management, authorization, and authentication for agentic AI.
+- [Know Your Agent](https://github.com/RishabhPande/know-your-agent) - Local Python credential prototype with Ed25519 signatures, scoped delegation, revocation and a signed audit log; not a hosted identity provider.
 
 ## Agent Communication
 
